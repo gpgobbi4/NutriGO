@@ -11,7 +11,7 @@
         body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; background-color: var(--blanco-marmol); color: var(--texto); line-height: 1.6; }
         header { background: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
         .logo-container h1 { color: var(--dorado-nutrigo); margin: 0; font-size: 1.8rem; letter-spacing: 1px; }
-        .hero { height: 60vh; background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.4)); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px; border-bottom: 1px solid #eee; }
+        .hero { height: 50vh; background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.4)); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px; border-bottom: 1px solid #eee; }
         .hero h2 { font-size: 3.5rem; color: var(--cafe-grano); margin: 0; }
         .hero p { font-size: 1.4rem; color: #555; max-width: 700px; margin: 15px 0 30px; }
         .section-title { text-align: center; padding: 60px 0 20px; font-size: 2.2rem; color: var(--cafe-grano); }
@@ -47,7 +47,7 @@
 
     <div class="productos-grid">
         <div class="producto-card">
-            <img src="assets/img/Etoqueta-Cafe.jpg" alt="NutriGo Café">
+            <img src="assets/img/Etoqueta-Cafe.png" alt="NutriGo Café">
             <div class="info-producto">
                 <h3>Sabor Café</h3>
                 <button class="btn-tabla" onclick="openModal('modalCafe')">Ver Tabla Nutricional</button>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="producto-card">
-            <img src="assets/img/Etiqueta-Frapuccino.jpg" alt="NutriGo Frappuccino">
+            <img src="assets/img/Etiqueta-Frapuccino.png" alt="NutriGo Frappuccino">
             <div class="info-producto">
                 <h3>Sabor Frappuccino</h3>
                 <button class="btn-tabla" onclick="openModal('modalFrapu')">Ver Tabla Nutricional</button>
@@ -63,7 +63,7 @@
         </div>
 
         <div class="producto-card">
-            <img src="assets/img/Frutos-rojos.jpg" alt="NutriGo Frutos Rojos">
+            <img src="assets/img/Frutos-rojos.png" alt="NutriGo Frutos Rojos">
             <div class="info-producto">
                 <h3>Sabor Frutos Rojos</h3>
                 <button class="btn-tabla" onclick="openModal('modalRojos')">Ver Tabla Nutricional</button>
@@ -74,21 +74,21 @@
     <div id="modalCafe" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modalCafe')">&times;</span>
-            <img src="assets/img/Tabla-Café.jpg" class="tabla-nutri-img" alt="Tabla Café">
+            <img src="assets/img/Tabla-Café.png" class="tabla-nutri-img" alt="Tabla Café">
         </div>
     </div>
 
     <div id="modalFrapu" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modalFrapu')">&times;</span>
-            <img src="assets/img/Tabla-frapuccino.jpg" class="tabla-nutri-img" alt="Tabla Frappuccino">
+            <img src="assets/img/Tabla-frapuccino.png" class="tabla-nutri-img" alt="Tabla Frappuccino">
         </div>
     </div>
 
     <div id="modalRojos" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modalRojos')">&times;</span>
-            <img src="assets/img/Tabla-Frutos-rojos.jpg" class="tabla-nutri-img" alt="Tabla Frutos Rojos">
+            <img src="assets/img/Tabla-Frutos-rojos.png" class="tabla-nutri-img" alt="Tabla Frutos Rojos">
         </div>
     </div>
 
